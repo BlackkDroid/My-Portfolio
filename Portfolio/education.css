@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+body{
+    width: 100%;
+    background: #fff;
+}
+/* Header Starts */
+.name-sect{
+    /* border: 1px solid red; */
+    background-color: #000;
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed;
+    width: 90%;
+    z-index: 999999; */
+}
+.name-sect .about ul li {
+display: inline-block;
+margin: 25px;
+list-style: none;
+}
+.about i{
+    margin-right: 10px;
+}
+.name-sect .about ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    transition: all 0.5s;
+}
+.name-sect .about ul li:hover a{
+    color: orangered;
+    font-weight: bolder;
+    filter: drop-shadow(2px 12px 5px #ffffff80);
+    
+
+  
+}
+.logo-name a img{
+    height: 70px;
+    width: 220px;
+   
+}
+/* Header Ends */
+/* Education Section Starts */
+
+.edu{
+    /* border: 1px solid red; */
+    margin: 45px 100px 190px 100px;
+    padding: 2%;
+    justify-content: center;
+  
+}
+.eduset{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.college p a{
+    text-decoration: none;
+    color: rgb(21, 134, 215);
+    line-height: 30px;
+    font-size: 17px;
+}
+.college p span{
+    color: rgb(61, 61, 61);
+    font-weight: bolder;
+
+}
+.college h3{
+    color: rgba(255, 68, 0);
+    
+}
+.college p{
+    /* margin: 0 90px 0 95px; */
+    margin: 15px 0;
+    line-height: 25px;
+   
+}
+
+.college{
+    margin: 10px 0 5px 25px;
+    /* border: 1px solid black; */
+     width: 400px;
+    /* height: 220px;  */
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0.5px grey;
+  
+    
+}
+
+/* Education Section Ends */
+
+/* Footer Section Starts */
+.foot{
+    /* border: 1px solid black; */
+    background-color: #000;
+    margin: 100px 0 0 0;
+    text-align: center;
+    padding: 10px;
+    color: rgba(245, 240, 240);
+
+
+}
+.contact{
+    padding: 0 100px;
+    display: flex;
+   justify-content: space-between;
+}
+
+.foot .contact ul li{
+display: inline-block;
+margin-left: 15px;
+}
+.foot .contact ul li a{
+    text-decoration: none;
+    /* color: rgb(255,70,0); */
+    color: rgba(245, 240, 240);
+}
+
+.foot-div .social i{
+    margin-right: 20px;
+    color: rgba(245, 240, 240);
+    font-size: 20px;
+    transition: all 0.3s;
+}
+.foot-div ul li:hover a,.foot-div ul li:hover i{
+    color: rgb(0,10,255);
+  
+}
+
+.text-contact h2:hover ,.text-contact h2:hover i {
+    color:rgb(0,10,255);
+    
+}
+.text-contact i, .phone i{
+    margin-right: 10px;
+}
+/* Footer Section Ends */
