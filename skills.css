@@ -15,9 +15,10 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* position: fixed;
+    position: fixed;
+    top: 0;
     width: 90%;
-    z-index: 999999; */
+    z-index: 999999;
 }
 .name-sect .about ul li {
 display: inline-block;
@@ -59,7 +60,7 @@ list-style: none;
 }
 
 .skill{
-    margin: 15px;
+    margin: 90px  15px 15px 15px;
     height: 200px;
     width: 350px;
     border: 1px solid rgba(128, 128, 128, 0.33);

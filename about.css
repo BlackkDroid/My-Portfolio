@@ -15,7 +15,10 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    position: fixed;
+    width: 90%;
+    top: 0;
+    z-index: 99999;
    
 }
 
@@ -49,7 +52,9 @@ list-style: none;
 /* Header Ends */
 
 /* About Section Starts */
-
+.about-section{
+    margin: 70px;
+}
 .about-me{
    
     padding: 25px 100px;
